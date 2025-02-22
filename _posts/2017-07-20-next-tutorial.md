@@ -19,7 +19,7 @@ tags:
 
 * Sidebar
 
-![Desktop Sidebar Preview](http://iissnan.com/nexus/next/desktop-sidebar-preview.png)
+xxxxxxxxxx16 1#include <iostream>2​3using namespace std;4​5void foo(int arg1, int arg2)6{7​8}9​10int main()11{12  string str;13  foo(1, 2);14  cout << "Hello World" << endl;15  return 0;16}c++
 
 * Sidebar (Post details page)
 
