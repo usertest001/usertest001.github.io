@@ -1,7 +1,7 @@
 {% if site.highlight.line_number %}
-  {% assign source = post.excerpt | slice:0,300 %}
+  {% assign source = post.excerpt | split: '</p>' | first | append: '</p>' %}
   {% include _helper/lineno.html %}
   {{ lineno }}
 {% else %}
-  {{ post.excerpt | slice:0,300 }}
+  {{ post.excerpt | split: '</p>' | first | append: '</p>' }}
 {% endif %}
